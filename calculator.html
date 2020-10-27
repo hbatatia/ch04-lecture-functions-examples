@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculating with js</title>
+    <meta charset="UTF-8">
+    <script src="calculator.js"></script>
+</head>
+
+<body>
+    <h1 align="center" style="color:blue">Evaluate any arithmetic operation !</h1>
+    <table align="center">
+        <thead>
+            <tr>
+                <th>Operand 1</th>
+                <th>Operation (+, -, *,/) </th>
+                <th>Operand 2 </th>
+                <th>Click </th>
+                <th>Result </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" id="operand1" align="middle" /></td>
+                <td><input type="text" id="op" value="+" style="text-align:center" /></td>
+                <td><input type="text" id="operand2" style="text-align:center" /></td>
+                <td><button onclick="compute();" align="middle">=</button></td>
+                <td><span id="result" style="text-align:center"> ? </span></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
